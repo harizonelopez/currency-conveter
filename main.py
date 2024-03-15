@@ -1,5 +1,6 @@
 # Dev_@ladinh production
 # a currency conveter app
+# It's still in development
 
 import requests
 
@@ -22,7 +23,7 @@ def convert_currency(api_key, amount, base_currency, target_currency):
     return converted_amount
 
 def main():
-    api_key = '' #API KEY pending to be inserted here...?
+    api_key = '' #API KEY pending to be inserted inside the single quotes...?
 
     amount = float(input("\nEnter the amount: "))
     base_currency = int(input("Enter the source currency code: "))
